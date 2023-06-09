@@ -1,0 +1,192 @@
+.blog-grid{
+    margin-top: 3rem;
+    grid-template-columns: 3fr 1fr 1fr;
+    column-gap: 0.5rem;
+    display: grid;
+}
+
+
+.blog1{
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    height: 60vh;
+    margin-left: 0.5rem;
+    
+}
+.card1, .card2, .card3 ,.card4{
+  position: relative;
+}
+.card1 img, .card2 img,.card3 img, .card4 img {
+  position: absolute;
+  
+  left: 50%;
+  width: 50%;
+  height: 85%;
+  top :15%;
+ 
+  object-fit: cover;
+ 
+}
+
+
+.blog2{
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    height: 60vh;
+    
+    
+}
+.blog4, .blog5{
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    height: 29.5vh;
+   
+    
+}
+.blog5{
+    margin-top: 1vh;
+}
+
+
+  .header{
+     margin-top: 2.5rem;
+     display: flex;
+     justify-content: center;
+  }
+  .str{
+    color: red;
+  }
+
+   
+  
+  .first-blog {
+    position: relative;
+    top: 40%;
+    margin-left: 0.5rem;
+    color: white;
+  }
+  .first{
+    position: relative;
+    margin-left: 0.66rem;
+    top: 40%;
+    color: white;
+  }
+  .first1{
+    top:37%;
+    position: relative;
+    margin-left: 0.66rem;
+    color: white;
+  }
+
+  .btn-blog{
+    top:34%;
+    position: relative;
+    margin-left: 0.76rem;
+    border-radius: 100px;
+    background-color:#0d0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 80px;
+    border: none;
+    border: 0.5px   #c1c1c1;
+    height: 5vh;
+    box-shadow: 0.5px 0.5px gray ;
+    transition-duration: 0.4s;
+  }
+   
+  .btn-blog:hover {
+    background-color: #f9fbf9; /* Green */
+   color: rgb(0, 0, 0);
+  }
+
+  .flavor{
+    text-align: center;
+  }
+  .card-layout{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    display: grid;
+    margin-bottom: 5px;
+  }
+  .card1, .card2 ,.card3 , .card4{
+     height: 30vh;
+     border-radius: 5px;
+  }
+  .card1{
+    margin-left: 0.5rem;
+    background-color:#E9BA2F;
+  }
+  .card2{
+    background-color: #fa8b94;
+  }
+  .card3{
+     background-color: #3eb4eb;
+  }
+  .card4{
+    background-color: #76d257 ;
+  }
+  .text1{
+    position: absolute;
+    top: 40%;
+    margin-left: 1rem;
+  }
+  .text2,.text3,.text4{
+    position: relative;
+    top: 40%;
+    margin-left: 1rem;
+  }
+ .text1 p, .text2 p, .text3 p, .text4 p{
+  margin: 0;
+  color: white;
+ }
+  @media screen and (max-width: 725px){
+   .first-blog{
+    font-size: 20px;
+   }
+   .first, .first1{
+     font-size: 10px;
+   }
+   .btn-blog{
+    width: 60px;
+    height: 3vh;
+    font-size: 10px;
+    top: 28%;
+   }
+   .blog1,.blog2,.blog3{
+    height: 30vh;
+   }
+   .blog4,.blog5{
+     height: 14.5vh;
+   }
+   .blog5{
+    margin-top: 1vh;
+   }
+   .card1, .card2 ,.card3 , .card4{
+    height: 15vh;
+   
+ }
+ .text1 p, .text2 p, .text3 p, .text4 p{
+  font-size: 9px;
+ }
+  }
+
+  
+  @media screen and (max-width: 425px){
+      
+    .first-blog{
+        font-size: 12px;
+       }
+       .first, .first1{
+         font-size: 8px;
+       }
+       .btn-blog{
+        width: 50px;
+        height: 3vh;
+        font-size: 10px;
+        top: 32%;
+       }
+       .text1 p, .text2 p, .text3 p, .text4 p{
+        font-size: 7px;
+       }
+  }
+  

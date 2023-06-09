@@ -1,0 +1,99 @@
+.flavor-grid{
+    margin-top: 20px;
+    display: flex;
+    height: 35vh;
+   
+    margin-left: 0.5rem;
+}
+
+.flavour-img{
+    background-color: black;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.flavour-text{
+    /*background-color: #2d2d2d;*/
+    
+  
+    text-align: center;
+    color: white;
+    justify-content: center;
+   
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(149,149,149,1) 0%, rgba(67,67,67,1) 0%, rgba(57,57,57,1) 4%, rgba(52,52,52,1) 6%, rgba(49,49,49,1) 7%, rgba(45,45,45,1) 100%);
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.new-flavor{
+    margin-top: 3.5rem;
+}
+.new-text{
+    
+    text-align: center;
+    color: white;
+}
+
+.flavour-img1{
+    background-color: #620b3e;
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+.flavour-img img{
+    position: absolute;
+    height: 80%;
+}
+.flavour-text1{
+    background-color: #c10874;
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.container1{
+    margin-top: 3rem;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 0.5rem;
+    display: grid;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.inner1{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+}
+.inner2{
+    width: 100%;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+   
+}
+.img-inner{
+    position: absolute;
+    width: 50%;
+    height: 90%;
+}
+.txt{
+    position: absolute;
+    color: aliceblue;
+    left: 50%;
+    top: 40%;
+}
+@media screen and (max-width: 725px){
+       .container1{
+        height: 30vh;
+       }
+
+       .flavour-img img{
+        
+        height: 70%;
+    }
+  
+  }
+  
